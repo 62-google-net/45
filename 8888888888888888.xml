@@ -1,3 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs title="Google.com" />
+<Content type="html"><![CDATA[
 <!DOCTYPE html>
 
 <html lang="en-us">
@@ -22,13 +26,13 @@
 <div id="unity-warning"> </div>
 </div>
 <script>
-		YaGames
-			.init()
-			.then(ysdk => {
-				console.log('Yandex SDK initialized');
-				window.ysdk = ysdk;
-			});
-	</script>
+        YaGames
+            .init()
+            .then(ysdk => {
+                console.log('Yandex SDK initialized');
+                window.ysdk = ysdk;
+            });
+    </script>
 <script>
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
@@ -123,3 +127,6 @@
     </script>
 </body>
 </html>
+
+]]></Content>
+</Module>
